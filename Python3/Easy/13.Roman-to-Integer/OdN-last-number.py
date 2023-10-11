@@ -14,4 +14,6 @@ class Solution:
 
 
 test = Solution()
-test.romanToInt('MCMXCIV')
+roman_number = 'MCMXCIV'
+result = test.romanToInt(roman_number)
+print(roman_number, "=", result)
